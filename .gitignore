@@ -1,0 +1,72 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and private trading records
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/QQQM_tiingo_history.csv
+!data/QQQM_tiingo_history.csv
+data/portfolio_transactions.csv
+
+# Generated outputs and per-user activity
+reports/**
+!reports/.gitkeep
+!reports/README.md
+*.log
+*.bak
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*credentials*.json
+*secret*.json
+*.pem
+
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local exports and generated artifacts
+outputs/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db

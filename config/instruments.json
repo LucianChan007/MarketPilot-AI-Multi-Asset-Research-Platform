@@ -1,0 +1,42 @@
+{
+  "schema_version": 2,
+  "default_feed": "yahoo",
+  "timeframe": "15m",
+  "instruments": [
+    {
+      "symbol": "QQQM",
+      "name": "Invesco Nasdaq 100 ETF",
+      "type": "etf",
+      "enabled": true,
+      "description": "纳斯达克100指数ETF，与其他资产平行研究，不作为唯一核心标的"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "type": "stock",
+      "enabled": true,
+      "description": "苹果公司"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "type": "stock",
+      "enabled": true,
+      "description": "微软公司"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "type": "stock",
+      "enabled": true,
+      "description": "英伟达公司"
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "type": "etf",
+      "enabled": false,
+      "description": "标普500指数ETF，可在资产管理中重新启用"
+    }
+  ]
+}

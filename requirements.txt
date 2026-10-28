@@ -1,0 +1,14 @@
+# Core GUI and data stack
+streamlit>=1.41,<2.0
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+altair>=5.0,<6.0
+matplotlib>=3.8,<4.0
+Pillow>=10.0
+
+# Market data, network and AI provider clients
+yfinance>=0.2.65
+requests>=2.32.0
+openai>=1.60.0
+python-dotenv>=1.0.1
+pandas-market-calendars>=4.4

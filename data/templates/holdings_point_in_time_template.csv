@@ -1,0 +1,2 @@
+ticker,weight,available_at,snapshot_id,source_name,source_url,retrieved_at
+AAPL,0.07,2026-10-20T20:00:00Z,provider_snapshot_2026-10-20,Example Provider,https://example.com/holdings,2026-10-20T20:01:00Z
